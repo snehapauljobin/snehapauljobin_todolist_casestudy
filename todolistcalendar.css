@@ -1,0 +1,83 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .nav-link{
+    font-size: 24px;
+   color:#fff!important;
+   
+}
+.nav-bar{
+
+  background-image:linear-gradient(to right, #276f72,#ffffff);
+  background-position: center; 
+  /* background-size:auto; */
+  height: 150px;
+  color:#fff;
+}
+
+ #calendar{
+    width: 80%;
+    margin-left: 100px;
+    margin-top:100px;
+    /* box-shadow: 0px 0px 10px #000; */
+    padding:15px; 
+    background: #fff;
+    box-shadow: 12px 12px 12px #d4f1f5;
+  }
+  #calendar-container {
+    /* position: fixed; */
+    top: 20%;
+    text-align: center;
+    left: 10%;
+    right: 10%;
+    bottom: 20%;
+  }
+
+p{
+  display:none;
+}
+
+    
+table tr td{
+  color:white;
+    border:1px solid #fff;
+    border-collapse: collapse;
+    margin-left:30px;
+    padding: 12px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    margin:6px 0;
+
+} 
+
+table tr th {
+  color:rgb(12, 147, 236);
+  font-weight:normal;
+    border:1px solid #fff;
+    border-collapse: collapse;
+    padding: 12px;
+     /* background-color: rgba(255, 255, 255, 0.672); */
+}
+
+tr:nth-child(even) {  
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#tablegrocery{
+   
+    margin-left:20%;
+     margin-right:20%; 
+    margin-top: 2%; 
+
+    width: 600px;
+    height:150px;
+    font-size: 20px;
+    
+}
+/* #footer{
+    background-image:linear-gradient(to right, #276f72,#ffffff);
+} */
+/* .footer-img{
+    width:100%;
+} */
